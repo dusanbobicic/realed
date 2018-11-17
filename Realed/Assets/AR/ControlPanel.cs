@@ -22,21 +22,7 @@ public class ControlPanel : MonoBehaviour, IVirtualButtonEventHandler
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        //var obj_name = "";
-        //switch (vb.VirtualButtonName)
-        //{
-        //    case "Top":
-        //        obj_name = "Top_Info";
-        //        break;
-        //    case "Left":
-        //        obj_name = "Left_Info";
-        //        break;
-        //    case "Right":
-        //        obj_name = "Right_Info";
-        //        break;
-        //}
         _visible = !_visible;
-        //Debug.Log(obj_name);
         Panel.SetActive(_visible);
     }
 

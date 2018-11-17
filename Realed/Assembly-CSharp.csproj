@@ -53,8 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AR\ButtonHandler.cs" />
      <Compile Include="Assets\AR\ControlPanel.cs" />
-     <Compile Include="Assets\AR\FaceRecognition.cs" />
      <Compile Include="Assets\AR\Helpers.cs" />
      <None Include="Assets\StreamingAssets\Vuforia\realed_database.xml" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
