@@ -53,8 +53,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FaceApi\Scripts\FACompareObject.cs" />
-     <Compile Include="Assets\FaceApi\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\FaceApi\Scripts\APIConstants.cs" />
+     <Compile Include="Assets\FaceApi\Scripts\FaceRectangle.cs" />
+     <Compile Include="Assets\FaceApi\Scripts\FARequest.cs" />
+     <Compile Include="Assets\FaceApi\Scripts\FAUtils.cs" />
+     <Compile Include="Assets\FaceApi\Scripts\HTTPUtils.cs" />
+     <Compile Include="Assets\FaceApi\Scripts\StartScript.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
