@@ -53,12 +53,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Database\BO\Appointment.cs" />
+     <Compile Include="Assets\Database\BO\DBService.cs" />
+     <Compile Include="Assets\Database\BO\Doctor.cs" />
+     <Compile Include="Assets\Database\BO\HealthInfo.cs" />
+     <Compile Include="Assets\Database\BO\Patient.cs" />
      <Compile Include="Assets\FaceApi\Scripts\APIConstants.cs" />
      <Compile Include="Assets\FaceApi\Scripts\FaceRectangle.cs" />
      <Compile Include="Assets\FaceApi\Scripts\FARequest.cs" />
      <Compile Include="Assets\FaceApi\Scripts\FAUtils.cs" />
      <Compile Include="Assets\FaceApi\Scripts\HTTPUtils.cs" />
      <Compile Include="Assets\FaceApi\Scripts\StartScript.cs" />
+     <Compile Include="Assets\SQLite4Unity3d\SQLite.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />

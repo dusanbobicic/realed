@@ -8,6 +8,7 @@ public class APIConstants  {
     public static string APIKEY = "IyxqaTgYFczENwVebQu0t72focDwT3vq";
     public static string APISECRET = "oRqIhnU4hjvmlA2sXwh9-cmhc9SFZoYK";
     public static string APIURL_COMPARE = "https://api-us.faceplusplus.com/facepp/v3/compare";
+    public static double Threshold = 85;
     public static string getUrlWKeys()
     {
         StringBuilder sb = new StringBuilder(APIURL_COMPARE);
