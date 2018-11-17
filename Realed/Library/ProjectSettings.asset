@@ -8,11 +8,19 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
+<<<<<<< HEAD
   defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Stormio
+=======
+  defaultScreenOrientation: 4
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  companyName: DefaultCompany
+>>>>>>> 42ab4e94c6054f01bee593d8599747cd8d9229ba
   productName: Realed
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -22,10 +30,17 @@ PlayerSettings:
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
+<<<<<<< HEAD
   m_SplashScreenDrawMode: 1
   m_SplashScreenBackgroundAnimationZoom: 1
   m_SplashScreenLogoAnimationZoom: 1
   m_SplashScreenBackgroundLandscapeAspect: 0.5625
+=======
+  m_SplashScreenDrawMode: 0
+  m_SplashScreenBackgroundAnimationZoom: 1
+  m_SplashScreenLogoAnimationZoom: 1
+  m_SplashScreenBackgroundLandscapeAspect: 1
+>>>>>>> 42ab4e94c6054f01bee593d8599747cd8d9229ba
   m_SplashScreenBackgroundPortraitAspect: 1
   m_SplashScreenBackgroundLandscapeUvs:
     serializedVersion: 2
@@ -39,11 +54,15 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
+<<<<<<< HEAD
   m_SplashScreenLogos:
   - logo: {fileID: 21300000, guid: 9d4302544c28aa246a5a1b402bdc7311, type: 3}
     duration: 2
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
+=======
+  m_SplashScreenLogos: []
+>>>>>>> 42ab4e94c6054f01bee593d8599747cd8d9229ba
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -155,11 +174,18 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
+<<<<<<< HEAD
   applicationIdentifier:
     Android: net.stormio.realed
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 21
+=======
+  applicationIdentifier: {}
+  buildNumber: {}
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 16
+>>>>>>> 42ab4e94c6054f01bee593d8599747cd8d9229ba
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -245,12 +271,21 @@ PlayerSettings:
   templatePackageId: com.unity.3d@1.0.2
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   AndroidTargetArchitectures: 5
+<<<<<<< HEAD
   AndroidSplashScreenScale: 2
   androidSplashScreen: {fileID: 2800000, guid: d42abfc9d5f6d0a4c9093e68d6d51105, type: 3}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
+=======
+  AndroidSplashScreenScale: 0
+  androidSplashScreen: {fileID: 0}
+  AndroidKeystoreName: 
+  AndroidKeyaliasName: 
+  AndroidBuildApkPerCpuArchitecture: 0
+  AndroidTVCompatibility: 1
+>>>>>>> 42ab4e94c6054f01bee593d8599747cd8d9229ba
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
@@ -261,6 +296,7 @@ PlayerSettings:
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
+<<<<<<< HEAD
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
@@ -362,6 +398,10 @@ PlayerSettings:
       m_Height: 36
       m_Kind: 0
       m_SubKind: 
+=======
+  m_BuildTargetIcons: []
+  m_BuildTargetPlatformIcons: []
+>>>>>>> 42ab4e94c6054f01bee593d8599747cd8d9229ba
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
@@ -397,6 +437,7 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+<<<<<<< HEAD
   - m_BuildTarget: Android
     m_Enabled: 0
     m_Devices:
@@ -406,6 +447,9 @@ PlayerSettings:
     m_Enabled: 1
   - m_BuildTarget: Android
     m_Enabled: 1
+=======
+  m_BuildTargetEnableVuforiaSettings: []
+>>>>>>> 42ab4e94c6054f01bee593d8599747cd8d9229ba
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
@@ -667,8 +711,12 @@ PlayerSettings:
   psp2InfoBarOnStartup: 0
   psp2InfoBarColor: 0
   psp2ScriptOptimizationLevel: 0
+<<<<<<< HEAD
   splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: b5b9072e306f7c34fbe96cfebce3860b,
     type: 3}
+=======
+  splashScreenBackgroundSourceLandscape: {fileID: 0}
+>>>>>>> 42ab4e94c6054f01bee593d8599747cd8d9229ba
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: 
   webGLMemorySize: 256
