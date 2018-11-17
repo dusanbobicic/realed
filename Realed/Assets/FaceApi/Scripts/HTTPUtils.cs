@@ -22,9 +22,9 @@ public class HTTPUtils:MonoBehaviour
         //form.AddField("api_key",APIConstants.APIKEY);
         // form.AddField("api_secret", APIConstants.APISECRET);
         form.AddBinaryData("image_file1", req.image_file1, "img00.jpeg");
-        Debug.Log(req.image_file1);
+        //Debug.Log(req.image_file1);
         form.AddBinaryData("image_file2", req.image_file2, "img01.jpeg");
-        Debug.Log(req.image_file2);
+        //Debug.Log(req.image_file2);
         www = new WWW(APIConstants.getUrlWKeys(), form.data, form.headers);
         StartCoroutine(WaitForRequest(www));
         return www;
@@ -36,10 +36,12 @@ public class HTTPUtils:MonoBehaviour
         {
             Debug.Log(" " + data.text);
             Debug.Log("There was an error sending request: " + data.error+ " "+data.text);
+            isSignal = true;
         }
         else
         {
             string dat = data.text;
+            Debug.Log(dat);
             /*FACompareObject v = new FACompareObject();
             JsonUtility.FromJsonOverwrite(data.text,v);*/
             string[] par = dat.Split(',');
@@ -48,7 +50,8 @@ public class HTTPUtils:MonoBehaviour
             {
                 if (st.Contains("confidence")) { fconf = st.Split(':'); }
             }
-            if (fconf.Length > 1) { Debug.Log(fconf[1]);confData =Convert.ToDouble(fconf[1]);isSignal = true; };
+            if (fconf.Length > 1) {Debug.Log(fconf[1]);confData =Convert.ToDouble(fconf[1]); };
+            isSignal = true;
         }
     }
 
